@@ -46,5 +46,5 @@ for water_heater in devices:
             }
         ]
 
-        # client.write_points(usage_object)
-        pprint(usage_object)
+        client.write_points(usage_object)
+        # pprint(usage_object)
